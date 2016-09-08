@@ -1,0 +1,32 @@
+{
+    "name": "smrtr/spawn-point",
+    "description": "A featherweight dispatch process enabling rapid development.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "spawn",
+        "haltorouter",
+        "httpfoundation"
+    ],
+    "bin": ["bin/spawn"],
+    "authors": [
+        {
+            "name": "Joe Green",
+            "email": "joe.green@smrtr.co.uk",
+            "homepage": "http://smrtr.co.uk",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "hearstuk/zf1-component-config": "~1.1",
+        "symfony/http-foundation": "~2.3",
+        "symfony/console": "~2.3",
+        "symfony/process": "~2.5",
+        "smrtr/haltorouter": "~1.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}

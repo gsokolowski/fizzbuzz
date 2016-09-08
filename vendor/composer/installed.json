@@ -1,0 +1,744 @@
+[
+    {
+        "name": "smrtr/haltorouter",
+        "version": "1.5",
+        "version_normalized": "1.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smrtr/HaltoRouter.git",
+            "reference": "ac7e57345ebd733e015e82f71f22b7639c331995"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smrtr/HaltoRouter/zipball/ac7e57345ebd733e015e82f71f22b7639c331995",
+            "reference": "ac7e57345ebd733e015e82f71f22b7639c331995",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.20"
+        },
+        "time": "2015-02-03 17:41:45",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joe Green",
+                "email": "joe.green@smrtr.co.uk",
+                "homepage": "http://smrtr.co.uk"
+            },
+            {
+                "name": "Danny van Kooten",
+                "homepage": "http://dannyvankooten.com/"
+            }
+        ],
+        "description": "A lightning fast router for PHP",
+        "homepage": "https://github.com/smrtr/HaltoRouter",
+        "keywords": [
+            "hostgroups",
+            "lightweight",
+            "router",
+            "routing"
+        ]
+    },
+    {
+        "name": "symfony/process",
+        "version": "v2.8.11",
+        "version_normalized": "2.8.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/process.git",
+            "reference": "05a03ed27073638658cab9405d99a67dd1014987"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/process/zipball/05a03ed27073638658cab9405d99a67dd1014987",
+            "reference": "05a03ed27073638658cab9405d99a67dd1014987",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "time": "2016-09-06 10:55:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Process\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Process Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "dff51f72b0706335131b00a7f49606168c582594"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
+            "reference": "dff51f72b0706335131b00a7f49606168c582594",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2016-05-18 14:26:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/console",
+        "version": "v2.8.11",
+        "version_normalized": "2.8.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git",
+            "reference": "3d3e4fa5f0614c8e45220e5de80332322e33bd90"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/console/zipball/3d3e4fa5f0614c8e45220e5de80332322e33bd90",
+            "reference": "3d3e4fa5f0614c8e45220e5de80332322e33bd90",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/event-dispatcher": "~2.1|~3.0.0",
+            "symfony/process": "~2.1|~3.0.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/process": ""
+        },
+        "time": "2016-09-06 10:55:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Console\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "ircmaxell/password-compat",
+        "version": "v1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ircmaxell/password_compat.git",
+            "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/5c5cde8822a69545767f7c7f3058cb15ff84614c",
+            "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2014-11-20 16:49:30",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/password.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Anthony Ferrara",
+                "email": "ircmaxell@php.net",
+                "homepage": "http://blog.ircmaxell.com"
+            }
+        ],
+        "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+        "homepage": "https://github.com/ircmaxell/password_compat",
+        "keywords": [
+            "hashing",
+            "password"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php55",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php55.git",
+            "reference": "bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d",
+            "reference": "bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d",
+            "shasum": ""
+        },
+        "require": {
+            "ircmaxell/password-compat": "~1.0",
+            "php": ">=5.3.3"
+        },
+        "time": "2016-05-18 14:26:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php55\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 5.5+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php54",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php54.git",
+            "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
+            "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2016-05-18 14:26:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Php54\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ],
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 5.4+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/http-foundation",
+        "version": "v2.8.11",
+        "version_normalized": "2.8.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/http-foundation.git",
+            "reference": "1d4ab8de2215e44e57fddc1e6b5d122546769e7d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1d4ab8de2215e44e57fddc1e6b5d122546769e7d",
+            "reference": "1d4ab8de2215e44e57fddc1e6b5d122546769e7d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9",
+            "symfony/polyfill-mbstring": "~1.1",
+            "symfony/polyfill-php54": "~1.0",
+            "symfony/polyfill-php55": "~1.0"
+        },
+        "require-dev": {
+            "symfony/expression-language": "~2.4|~3.0.0"
+        },
+        "time": "2016-09-06 10:55:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\HttpFoundation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony HttpFoundation Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "hearstuk/zf1-components-base",
+        "version": "1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/joegreen88/zf1-components-base.git",
+            "reference": "b3833cd81ab01ccfacd8c34177b7f4e3032cd611"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/joegreen88/zf1-components-base/zipball/b3833cd81ab01ccfacd8c34177b7f4e3032cd611",
+            "reference": "b3833cd81ab01ccfacd8c34177b7f4e3032cd611",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.20"
+        },
+        "time": "2013-09-19 16:03:57",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/Zend/Exception.php",
+                "src/Zend/Loader.php",
+                "src/Zend/Registry.php",
+                "src/Zend/Version.php"
+            ],
+            "psr-0": {
+                "Zend_Loader": "src/",
+                "Tests\\Zend": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joe Green",
+                "email": "Joe.Green@hearst.co.uk"
+            }
+        ],
+        "description": "Base files required for abstracted composer-compatible ZF1 components.",
+        "homepage": "http://github.com/joegreen88/zf1-components-base"
+    },
+    {
+        "name": "hearstuk/zf1-component-config",
+        "version": "1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/joegreen88/zf1-component-config.git",
+            "reference": "144959fee0ba098acb0a33e50a377ff90583161b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/joegreen88/zf1-component-config/zipball/144959fee0ba098acb0a33e50a377ff90583161b",
+            "reference": "144959fee0ba098acb0a33e50a377ff90583161b",
+            "shasum": ""
+        },
+        "require": {
+            "hearstuk/zf1-components-base": "~1.2",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.20"
+        },
+        "time": "2013-09-19 16:12:46",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/Zend/Config.php"
+            ],
+            "psr-0": {
+                "Zend_Config": "src/",
+                "Tests\\Zend\\Config": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Joe Green",
+                "email": "Joe.Green@hearst.co.uk"
+            }
+        ],
+        "description": "The Zend_Config component from Zend Framework 1.12 abstracted out for use with composer.",
+        "homepage": "http://github.com/joegreen88/zf1-component-config"
+    },
+    {
+        "name": "smrtr/spawn-point",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smrtr/spawn-point.git",
+            "reference": "ac016e2da788bac8ea1c9b4b195452018ddd65f4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smrtr/spawn-point/zipball/ac016e2da788bac8ea1c9b4b195452018ddd65f4",
+            "reference": "ac016e2da788bac8ea1c9b4b195452018ddd65f4",
+            "shasum": ""
+        },
+        "require": {
+            "hearstuk/zf1-component-config": "~1.1",
+            "smrtr/haltorouter": "~1.4",
+            "symfony/console": "~2.3",
+            "symfony/http-foundation": "~2.3",
+            "symfony/process": "~2.5"
+        },
+        "time": "2015-11-11 05:12:40",
+        "bin": [
+            "bin/spawn"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joe Green",
+                "email": "joe.green@smrtr.co.uk",
+                "homepage": "http://smrtr.co.uk",
+                "role": "developer"
+            }
+        ],
+        "description": "A featherweight dispatch process enabling rapid development.",
+        "keywords": [
+            "haltorouter",
+            "httpfoundation",
+            "spawn"
+        ]
+    },
+    {
+        "name": "smrtr/mysql-version-control",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smrtr/mysql-version-control.git",
+            "reference": "66360f6c28b889c2c992c25759a461f1266d605b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smrtr/mysql-version-control/zipball/66360f6c28b889c2c992c25759a461f1266d605b",
+            "reference": "66360f6c28b889c2c992c25759a461f1266d605b",
+            "shasum": ""
+        },
+        "require": {
+            "hearstuk/zf1-component-config": "~1.1",
+            "symfony/console": "~2.7",
+            "symfony/process": "~2.7"
+        },
+        "time": "2016-07-22 16:13:44",
+        "bin": [
+            "bin/up",
+            "bin/teardown",
+            "bin/smyver.php"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joe Green",
+                "email": "joe.green@smrtr.co.uk"
+            }
+        ],
+        "description": "A crude version control system for mysql written in php",
+        "keywords": [
+            "data",
+            "database",
+            "db",
+            "migration",
+            "mysql",
+            "structure",
+            "update",
+            "version",
+            "version control"
+        ]
+    },
+    {
+        "name": "container-interop/container-interop",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/container-interop/container-interop.git",
+            "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/container-interop/container-interop/zipball/fc08354828f8fd3245f77a66b9e23a6bca48297e",
+            "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
+            "shasum": ""
+        },
+        "time": "2014-12-30 15:22:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Interop\\Container\\": "src/Interop/Container/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Promoting the interoperability of container objects (DIC, SL, etc.)"
+    },
+    {
+        "name": "league/container",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/container.git",
+            "reference": "c0e7d947b690891f700dc4967ead7bdb3d6708c1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/container/zipball/c0e7d947b690891f700dc4967ead7bdb3d6708c1",
+            "reference": "c0e7d947b690891f700dc4967ead7bdb3d6708c1",
+            "shasum": ""
+        },
+        "require": {
+            "container-interop/container-interop": "^1.1",
+            "php": ">=5.4.0"
+        },
+        "provide": {
+            "container-interop/container-interop-implementation": "^1.1"
+        },
+        "replace": {
+            "orno/di": "~2.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2016-03-17 11:07:59",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev",
+                "dev-1.x": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\Container\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Phil Bennett",
+                "email": "philipobenito@gmail.com",
+                "homepage": "http://www.philipobenito.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A fast and intuitive dependency injection container.",
+        "homepage": "https://github.com/thephpleague/container",
+        "keywords": [
+            "container",
+            "dependency",
+            "di",
+            "injection",
+            "league",
+            "provider",
+            "service"
+        ]
+    }
+]

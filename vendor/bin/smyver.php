@@ -1,0 +1,1 @@
+../smrtr/mysql-version-control/bin/smyver.php

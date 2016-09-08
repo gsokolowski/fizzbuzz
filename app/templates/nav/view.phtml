@@ -1,0 +1,30 @@
+<?php include __DIR__.'/../inc/header.phtml'; ?>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/"><em>Fizz</em><strong>Buzz</strong></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <?php
+            if (null === $this->sections): ?>
+                <p>No sections</p>
+            <?php else: ?>
+                <?php foreach ($this->sections as $section): ?>
+                    <li>
+                        <a href="/section/<?= $section['slug'] ?>">
+                            <?= ucfirst(htmlentities($section['title'])) ?>
+                        </a>
+                    </li>
+                <?php endforeach; ?>
+            <?php endif; ?>
+            <li><a href="/section/hints">Hints</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/phpinfo">phpinfo</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<?php include __DIR__.'/../inc/footer.phtml'; ?>
